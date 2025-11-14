@@ -1,0 +1,82 @@
+let scenarios = [];
+let currentScenario = null;
+let lives = 3;
+let score = 0;
+
+document.getElementById('start-btn').addEventListener('click', startGame);
+
+async function startGame() {
+    const response = await fetch('scenarios.json');
+    scenarios = await response.json();
+    currentScenario = scenarios[Math.floor(Math.random() * scenarios.length)];
+    showPlanningPhase();
+}
+
+function showPlanningPhase() {
+    const screen = document.getElementById('screen');
+    screen.innerHTML = `
+        <h2>FASE 1: PLANIFICACIÓN</h2>
+        <p><strong>Misión:</strong> ${currentScenario.mission}</p>
+        <p><strong>Enemigo:</strong> ${currentScenario.enemy}</p>
+        <p><strong>Terreno:</strong> ${currentScenario.terrain}</p>
+        <p><strong>Tropas:</strong> ${currentScenario.troops}</p>
+        <p><strong>Tiempo:</strong> ${currentScenario.time}</p>
+        <p><strong>Civiles:</strong> ${currentScenario.civilians}</p>
+        <h3>Elige un Curso de Acción:</h3>
+        ${currentScenario.coa.map((option, index) => `
+            <button onclick="checkDecision(${index})">${option}</button>
+        `).join('')}
+    `;
+}
+
+function checkDecision(index) {
+    const feedback = currentScenario.feedback[index];
+    const screen = document.getElementById('screen');
+    if (feedback.correct) {
+        score += 10;
+        screen.innerHTML = `<p>✅ ${feedback.text}</p><button onclick="showPreparationPhase()">Continuar</button>`;
+    } else {
+        lives--;
+        screen.innerHTML = `<p>❌ ${feedback.text}</p><p>Vidas restantes: ${lives}</p><button onclick="showPreparationPhase()">Continuar</button>`;
+        if (lives <= 0) {
+            endGame();
+        }
+    }
+}
+
+function showPreparationPhase() {
+    const screen = document.getElementById('screen');
+    screen.innerHTML = `
+        <h2>FASE 2: PREPARACIÓN</h2>
+        <p>Decisiones sobre recursos y medidas de control (simulación simplificada).</p>
+        <button onclick="showExecutionPhase()">Continuar</button>
+    `;
+}
+
+function showExecutionPhase() {
+    const screen = document.getElementById('screen');
+    screen.innerHTML = `
+        <h2>FASE 3: EJECUCIÓN</h2>
+        <p>Evento inesperado: Ajusta tu plan.</p>
+        <button onclick="showEvaluationPhase()">Continuar</button>
+    `;
+}
+
+function showEvaluationPhase() {
+    const screen = document.getElementById('screen');
+    screen.innerHTML = `
+        <h2>FASE 4: EVALUACIÓN</h2>
+        <p>Puntuación final: ${score}</p>
+        <p>Juego terminado.</p>
+        <button onclick="location.reload()">Jugar otra vez</button>
+    `;
+}
+
+function endGame() {
+    const screen = document.getElementById('screen');
+    screen.innerHTML = `
+        <h2>GAME OVER</h2>
+        <p>Puntuación: ${score}</p>
+        <button onclick="location.reload()">Reintentar</button>
+    `;
+}

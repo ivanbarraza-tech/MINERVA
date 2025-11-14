@@ -1,0 +1,903 @@
+[
+  {
+    "mission": "Asegurar puente estratégico en 24 horas",
+    "enemy": "Compañía ligera con morteros",
+    "terrain": "Río con un solo cruce, clima lluvioso",
+    "troops": "2 compañías de infantería, 1 sección ingenieros",
+    "time": "24 horas",
+    "civilians": "Presencia moderada en poblado cercano",
+    "coa": [
+      "Ataque frontal inmediato",
+      "Reconocimiento + ataque nocturno",
+      "Esperar refuerzos y atacar en masa"
+    ],
+    "feedback": [
+      {"correct": false, "text": "Ataque frontal sin información aumenta vulnerabilidad (Art. 93 RDPL-20001)."},
+      {"correct": true, "text": "Priorizar ISTAR y aprovechar la sorpresa nocturna reduce riesgo (Art. 137 RDPL-20001)."},
+      {"correct": false, "text": "Esperar refuerzos compromete el tiempo disponible (Art. 90 RDPL-20001)."}
+    ]
+  },
+  {
+    "mission": "Defender un poblado clave ante ofensiva enemiga",
+    "enemy": "Batallón mecanizado",
+    "terrain": "Llanura abierta, visibilidad alta",
+    "troops": "1 compañía infantería, 2 secciones antitanque",
+    "time": "12 horas",
+    "civilians": "Alta concentración en el poblado",
+    "coa": [
+      "Fortificar posiciones y esperar",
+      "Contraataque preventivo",
+      "Retirada táctica hacia colinas"
+    ],
+    "feedback": [
+      {"correct": true, "text": "Fortificar posiciones aprovecha el terreno y reduce vulnerabilidad (Art. 140 RDPL-20001)."},
+      {"correct": false, "text": "Contraataque sin superioridad de medios aumenta riesgo (Art. 93 RDPL-20001)."},
+      {"correct": false, "text": "Retirada compromete la misión y el estado final deseado (Art. 119 RDPL-20001)."}
+    ]
+  },
+  {
+    "mission": "Establecer control sobre un aeropuerto",
+    "enemy": "Fuerzas especiales infiltradas",
+    "terrain": "Zona urbana con hangares",
+    "troops": "3 pelotones, apoyo aéreo limitado",
+    "time": "8 horas",
+    "civilians": "Personal técnico presente",
+    "coa": [
+      "Ataque directo a la pista",
+      "Asegurar perímetro primero",
+      "Negociar con autoridades civiles"
+    ],
+    "feedback": [
+      {"correct": false, "text": "Ataque directo sin control del perímetro expone vulnerabilidad (Art. 95 RDPL-20001)."},
+      {"correct": true, "text": "Asegurar perímetro garantiza control y reduce riesgos (Art. 138 RDPL-20001)."},
+      {"correct": false, "text": "Negociar no cumple la misión en tiempo crítico (Art. 90 RDPL-20001)."}
+    ]
+  },
+  {
+    "mission": "Recuperar convoy capturado",
+    "enemy": "Guerrilla irregular",
+    "terrain": "Selva densa, clima húmedo",
+    "troops": "2 pelotones, drones de reconocimiento",
+    "time": "6 horas",
+    "civilians": "Sin presencia",
+    "coa": [
+      "Avance rápido por ruta principal",
+      "Emboscada inversa en punto crítico",
+      "Esperar apoyo aéreo"
+    ],
+    "feedback": [
+      {"correct": false, "text": "Avance rápido sin reconocimiento aumenta riesgo de emboscada (Art. 93 RDPL-20001)."},
+      {"correct": true, "text": "Emboscada inversa aprovecha sorpresa y reduce bajas (Art. 162 RDPL-20001)."},
+      {"correct": false, "text": "Esperar apoyo aéreo compromete tiempo crítico (Art. 90 RDPL-20001)."}
+    ]
+  },
+  {
+    "mission": "Proteger represa hidroeléctrica",
+    "enemy": "Grupo insurgente con explosivos",
+    "terrain": "Montañoso, acceso limitado",
+    "troops": "1 compañía, ingenieros",
+    "time": "18 horas",
+    "civilians": "Personal técnico en la represa",
+    "coa": [
+      "Patrullas constantes",
+      "Establecer perímetro defensivo",
+      "Evacuación preventiva"
+    ],
+    "feedback": [
+      {"correct": false, "text": "Patrullas sin control fijo no garantizan seguridad (Art. 95 RDPL-20001)."},
+      {"correct": true, "text": "Perímetro defensivo asegura protección y control (Art. 138 RDPL-20001)."},
+      {"correct": false, "text": "Evacuación preventiva no cumple la misión (Art. 90 RDPL-20001)."}
+    ]
+  },
+  {
+    "mission": "Neutralizar centro de comunicaciones enemigo",
+    "enemy": "Unidad electrónica avanzada",
+    "terrain": "Zona urbana con edificios altos",
+    "troops": "2 compañías, apoyo artillería",
+    "time": "10 horas",
+    "civilians": "Alta densidad poblacional",
+    "coa": [
+      "Ataque aéreo inmediato",
+      "Operación nocturna con infiltración",
+      "Bloqueo de suministros"
+    ],
+    "feedback": [
+      {"correct": false, "text": "Ataque aéreo en zona urbana genera daños colaterales (Art. 93 RDPL-20001)."},
+      {"correct": true, "text": "Infiltración nocturna reduce riesgos y asegura sorpresa (Art. 137 RDPL-20001)."},
+      {"correct": false, "text": "Bloqueo no neutraliza el objetivo en tiempo crítico (Art. 90 RDPL-20001)."}
+    ]
+  },
+  {
+    "mission": "Asegurar frontera ante incursión enemiga",
+    "enemy": "Fuerzas blindadas ligeras",
+    "terrain": "Desierto abierto",
+    "troops": "1 batallón, artillería ligera",
+    "time": "48 horas",
+    "civilians": "Sin presencia",
+    "coa": [
+      "Línea defensiva fija",
+      "Defensa móvil con contraataques",
+      "Retirada hacia posiciones fortificadas"
+    ],
+    "feedback": [
+      {"correct": false, "text": "Defensa fija en desierto limita flexibilidad (Art. 93 RDPL-20001)."},
+      {"correct": true, "text": "Defensa móvil aprovecha maniobra y reduce vulnerabilidad (Art. 162 RDPL-20001)."},
+      {"correct": false, "text": "Retirada compromete control territorial (Art. 119 RDPL-20001)."}
+    ]
+  },
+  {
+    "mission": "Evacuar población tras desastre natural",
+    "enemy": "Bandas armadas saqueando",
+    "terrain": "Ciudad parcialmente destruida",
+    "troops": "1 compañía, vehículos ligeros",
+    "time": "12 horas",
+    "civilians": "Alta concentración en refugios",
+    "coa": [
+      "Evacuación inmediata sin seguridad",
+      "Establecer corredores seguros",
+      "Negociar con bandas armadas"
+    ],
+    "feedback": [
+      {"correct": false, "text": "Evacuación sin seguridad expone civiles (Art. 93 RDPL-20001)."},
+      {"correct": true, "text": "Corredores seguros garantizan protección y orden (Art. 138 RDPL-20001)."},
+      {"correct": false, "text": "Negociar no asegura cumplimiento de misión (Art. 90 RDPL-20001)."}
+    ]
+  },
+  {
+    "mission": "Proteger convoy logístico",
+    "enemy": "Francotiradores y IED",
+    "terrain": "Carretera montañosa",
+    "troops": "2 pelotones, ingenieros",
+    "time": "8 horas",
+    "civilians": "Tráfico moderado",
+    "coa": [
+      "Avance rápido sin reconocimiento",
+      "Reconocimiento + neutralización de IED",
+      "Esperar refuerzos blindados"
+    ],
+    "feedback": [
+      {"correct": false, "text": "Avance sin reconocimiento aumenta riesgo (Art. 93 RDPL-20001)."},
+      {"correct": true, "text": "Reconocimiento y neutralización reduce vulnerabilidad (Art. 137 RDPL-20001)."},
+      {"correct": false, "text": "Esperar refuerzos compromete tiempo crítico (Art. 90 RDPL-20001)."}
+    ]
+  },
+  {
+    "mission": "Tomar control de puerto marítimo",
+    "enemy": "Fuerzas navales ligeras",
+    "terrain": "Costero, clima adverso",
+    "troops": "1 compañía, apoyo naval limitado",
+    "time": "24 horas",
+    "civilians": "Personal portuario presente",
+    "coa": [
+      "Ataque frontal por muelle",
+      "Infiltración nocturna",
+      "Bloqueo marítimo previo"
+    ],
+    "feedback": [
+      {"correct": false, "text": "Ataque frontal expone vulnerabilidad (Art. 93 RDPL-20001)."},
+      {"correct": true, "text": "Infiltración nocturna aprovecha sorpresa y reduce riesgos (Art. 137 RDPL-20001)."},
+      {"correct": false, "text": "Bloqueo previo no asegura control rápido (Art. 90 RDPL-20001)."}
+    ]
+  }
+]
+{
+  "mission": "Restablecer orden en ciudad tras disturbios",
+  "enemy": "Grupos armados dispersos",
+  "terrain": "Urbano, alta densidad",
+  "troops": "2 compañías, policía local",
+  "time": "6 horas",
+  "civilians": "Miles en las calles",
+  "coa": [
+    "Uso masivo de fuerza",
+    "Control de puntos críticos",
+    "Negociación con líderes civiles"
+  ],
+  "feedback": [
+    {"correct": false, "text": "Uso masivo de fuerza genera daños colaterales y afecta legitimidad (Art. 93 RDPL-20001)."},
+    {"correct": true, "text": "Control de puntos críticos asegura estabilidad y reduce riesgos (Art. 138 RDPL-20001)."},
+    {"correct": false, "text": "Negociación no garantiza cumplimiento de misión en tiempo crítico (Art. 90 RDPL-20001)."}
+  ]
+},
+{
+  "mission": "Interceptar columna enemiga en retirada",
+  "enemy": "Fuerzas mecanizadas",
+  "terrain": "Llanura con rutas múltiples",
+  "troops": "1 batallón, artillería",
+  "time": "10 horas",
+  "civilians": "Sin presencia",
+  "coa": [
+    "Ataque directo en ruta principal",
+    "Emboscada en punto de estrangulamiento",
+    "Esperar refuerzos"
+  ],
+  "feedback": [
+    {"correct": false, "text": "Ataque directo expone vulnerabilidad ante fuego cruzado (Art. 93 RDPL-20001)."},
+    {"correct": true, "text": "Emboscada aprovecha sorpresa y reduce bajas (Art. 162 RDPL-20001)."},
+    {"correct": false, "text": "Esperar refuerzos compromete tiempo crítico (Art. 90 RDPL-20001)."}
+  ]
+},
+{
+  "mission": "Proteger base aérea ante ataque sorpresa",
+  "enemy": "Comandos infiltrados",
+  "terrain": "Zona abierta con hangares",
+  "troops": "1 compañía, defensa antiaérea",
+  "time": "4 horas",
+  "civilians": "Personal técnico presente",
+  "coa": [
+    "Refuerzo inmediato del perímetro",
+    "Contraataque hacia zona de infiltración",
+    "Evacuación de personal"
+  ],
+  "feedback": [
+    {"correct": true, "text": "Refuerzo del perímetro asegura protección y control (Art. 138 RDPL-20001)."},
+    {"correct": false, "text": "Contraataque sin consolidar defensa aumenta riesgo (Art. 93 RDPL-20001)."},
+    {"correct": false, "text": "Evacuación compromete misión y control del objetivo (Art. 90 RDPL-20001)."}
+  ]
+},
+{
+  "mission": "Asegurar paso montañoso estratégico",
+  "enemy": "Fuerzas ligeras con morteros",
+  "terrain": "Montañoso, clima frío",
+  "troops": "2 compañías, ingenieros",
+  "time": "18 horas",
+  "civilians": "Sin presencia",
+  "coa": [
+    "Ataque frontal",
+    "Maniobra envolvente",
+    "Esperar apoyo aéreo"
+  ],
+  "feedback": [
+    {"correct": false, "text": "Ataque frontal en terreno montañoso aumenta bajas (Art. 93 RDPL-20001)."},
+    {"correct": true, "text": "Maniobra envolvente aprovecha terreno y reduce riesgos (Art. 162 RDPL-20001)."},
+    {"correct": false, "text": "Esperar apoyo aéreo compromete tiempo crítico (Art. 90 RDPL-20001)."}
+  ]
+},
+{
+  "mission": "Neutralizar depósito de municiones enemigo",
+  "enemy": "Guardia armada",
+  "terrain": "Zona boscosa",
+  "troops": "1 pelotón, apoyo artillería",
+  "time": "6 horas",
+  "civilians": "Sin presencia",
+  "coa": [
+    "Ataque directo",
+    "Infiltración nocturna",
+    "Esperar refuerzos"
+  ],
+  "feedback": [
+    {"correct": false, "text": "Ataque directo expone vulnerabilidad ante fuego defensivo (Art. 93 RDPL-20001)."},
+    {"correct": true, "text": "Infiltración nocturna reduce riesgos y asegura sorpresa (Art. 137 RDPL-20001)."},
+    {"correct": false, "text": "Esperar refuerzos compromete tiempo crítico (Art. 90 RDPL-20001)."}
+  ]
+},
+{
+  "mission": "Proteger hospital militar",
+  "enemy": "Grupo insurgente",
+  "terrain": "Urbano",
+  "troops": "1 compañía, policía local",
+  "time": "8 horas",
+  "civilians": "Pacientes y personal médico",
+  "coa": [
+    "Evacuación inmediata",
+    "Fortificación del perímetro",
+    "Negociación con insurgentes"
+  ],
+  "feedback": [
+    {"correct": false, "text": "Evacuación inmediata no garantiza protección del objetivo (Art. 90 RDPL-20001)."},
+    {"correct": true, "text": "Fortificación del perímetro asegura control y reduce riesgos (Art. 138 RDPL-20001)."},
+    {"correct": false, "text": "Negociación no asegura cumplimiento de misión (Art. 90 RDPL-20001)."}
+  ]
+},
+{
+  "mission": "Recuperar zona industrial ocupada",
+  "enemy": "Fuerzas irregulares",
+  "terrain": "Urbano con fábricas",
+  "troops": "2 compañías, ingenieros",
+  "time": "12 horas",
+  "civilians": "Trabajadores retenidos",
+  "coa": [
+    "Ataque frontal",
+    "Operación nocturna",
+    "Bloqueo de suministros"
+  ],
+  "feedback": [
+    {"correct": false, "text": "Ataque frontal en zona urbana aumenta bajas (Art. 93 RDPL-20001)."},
+    {"correct": true, "text": "Operación nocturna aprovecha sorpresa y reduce riesgos (Art. 137 RDPL-20001)."},
+    {"correct": false, "text": "Bloqueo no asegura control rápido del objetivo (Art. 90 RDPL-20001)."}
+  ]
+},
+{
+  "mission": "Proteger línea férrea estratégica",
+  "enemy": "Sabotaje con explosivos",
+  "terrain": "Llanura abierta",
+  "troops": "1 compañía, ingenieros",
+  "time": "24 horas",
+  "civilians": "Sin presencia",
+  "coa": [
+    "Patrullas constantes",
+    "Establecer puntos de control",
+    "Esperar refuerzos"
+  ],
+  "feedback": [
+    {"correct": false, "text": "Patrullas sin control fijo no garantizan seguridad (Art. 95 RDPL-20001)."},
+    {"correct": true, "text": "Puntos de control aseguran protección y control (Art. 138 RDPL-20001)."},
+    {"correct": false, "text": "Esperar refuerzos compromete tiempo crítico (Art. 90 RDPL-20001)."}
+  ]
+},
+{
+  "mission": "Asegurar frontera fluvial",
+  "enemy": "Fuerzas anfibias",
+  "terrain": "Río ancho, clima lluvioso",
+  "troops": "1 batallón, artillería ligera",
+  "time": "36 horas",
+  "civilians": "Sin presencia",
+  "coa": [
+    "Defensa en la orilla",
+    "Ataque preventivo",
+    "Retirada táctica"
+  ],
+  "feedback": [
+    {"correct": true, "text": "Defensa en la orilla aprovecha terreno y reduce riesgos (Art. 138 RDPL-20001)."},
+    {"correct": false, "text": "Ataque preventivo sin superioridad aumenta riesgo (Art. 93 RDPL-20001)."},
+    {"correct": false, "text": "Retirada compromete control territorial (Art. 119 RDPL-20001)."}
+  ]
+},
+{
+  "mission": "Neutralizar centro de mando enemigo",
+  "enemy": "Unidad blindada ligera",
+  "terrain": "Zona urbana",
+  "troops": "2 compañías, apoyo aéreo limitado",
+  "time": "10 horas",
+  "civilians": "Alta densidad poblacional",
+  "coa": [
+    "Ataque aéreo inmediato",
+    "Infiltración nocturna",
+    "Bloqueo de suministros"
+  ],
+  "feedback": [
+    {"correct": false, "text": "Ataque aéreo en zona urbana genera daños colaterales (Art. 93 RDPL-20001)."},
+    {"correct": true, "text": "Infiltración nocturna reduce riesgos y asegura sorpresa (Art. 137 RDPL-20001)."},
+    {"correct": false, "text": "Bloqueo no neutraliza el objetivo en tiempo crítico (Art. 90 RDPL-20001)."}
+  ]
+}
+{
+  "mission": "Asegurar centro logístico en zona urbana",
+  "enemy": "Fuerzas irregulares con apoyo externo",
+  "terrain": "Ciudad con calles estrechas",
+  "troops": "2 compañías, vehículos blindados ligeros",
+  "time": "14 horas",
+  "civilians": "Alta densidad poblacional",
+  "coa": [
+    "Ataque frontal por avenida principal",
+    "Infiltración por rutas secundarias",
+    "Esperar refuerzos antes de actuar"
+  ],
+  "feedback": [
+    {"correct": false, "text": "Ataque frontal en zona urbana aumenta bajas (Art. 93 RDPL-20001)."},
+    {"correct": true, "text": "Infiltración por rutas secundarias reduce riesgos y aprovecha sorpresa (Art. 137 RDPL-20001)."},
+    {"correct": false, "text": "Esperar refuerzos compromete tiempo crítico (Art. 90 RDPL-20001)."}
+  ]
+},
+{
+  "mission": "Proteger estación ferroviaria estratégica",
+  "enemy": "Sabotaje con explosivos",
+  "terrain": "Zona urbana con acceso limitado",
+  "troops": "1 compañía, ingenieros",
+  "time": "20 horas",
+  "civilians": "Personal ferroviario presente",
+  "coa": [
+    "Patrullas constantes",
+    "Establecer puntos de control",
+    "Evacuación preventiva"
+  ],
+  "feedback": [
+    {"correct": false, "text": "Patrullas sin control fijo no garantizan seguridad (Art. 95 RDPL-20001)."},
+    {"correct": true, "text": "Puntos de control aseguran protección y control (Art. 138 RDPL-20001)."},
+    {"correct": false, "text": "Evacuación preventiva no cumple la misión (Art. 90 RDPL-20001)."}
+  ]
+},
+{
+  "mission": "Neutralizar base enemiga en zona desértica",
+  "enemy": "Fuerzas mecanizadas ligeras",
+  "terrain": "Desierto abierto",
+  "troops": "1 batallón, artillería ligera",
+  "time": "30 horas",
+  "civilians": "Sin presencia",
+  "coa": [
+    "Ataque frontal",
+    "Maniobra envolvente",
+    "Esperar apoyo aéreo"
+  ],
+  "feedback": [
+    {"correct": false, "text": "Ataque frontal en desierto expone vulnerabilidad (Art. 93 RDPL-20001)."},
+    {"correct": true, "text": "Maniobra envolvente aprovecha terreno y reduce riesgos (Art. 162 RDPL-20001)."},
+    {"correct": false, "text": "Esperar apoyo aéreo compromete tiempo crítico (Art. 90 RDPL-20001)."}
+  ]
+},
+{
+  "mission": "Proteger embajada ante amenaza terrorista",
+  "enemy": "Grupo armado con explosivos",
+  "terrain": "Zona urbana",
+  "troops": "1 compañía, policía local",
+  "time": "6 horas",
+  "civilians": "Personal diplomático presente",
+  "coa": [
+    "Evacuación inmediata",
+    "Fortificación del perímetro",
+    "Negociación con terroristas"
+  ],
+  "feedback": [
+    {"correct": false, "text": "Evacuación inmediata no garantiza protección del objetivo (Art. 90 RDPL-20001)."},
+    {"correct": true, "text": "Fortificación del perímetro asegura control y reduce riesgos (Art. 138 RDPL-20001)."},
+    {"correct": false, "text": "Negociación no asegura cumplimiento de misión (Art. 90 RDPL-20001)."}
+  ]
+},
+{
+  "mission": "Recuperar zona portuaria ocupada",
+  "enemy": "Fuerzas irregulares con apoyo naval",
+  "terrain": "Costero, clima adverso",
+  "troops": "2 compañías, apoyo naval limitado",
+  "time": "18 horas",
+  "civilians": "Personal portuario presente",
+  "coa": [
+    "Ataque frontal por muelle",
+    "Infiltración nocturna",
+    "Bloqueo marítimo previo"
+  ],
+  "feedback": [
+    {"correct": false, "text": "Ataque frontal expone vulnerabilidad (Art. 93 RDPL-20001)."},
+    {"correct": true, "text": "Infiltración nocturna aprovecha sorpresa y reduce riesgos (Art. 137 RDPL-20001)."},
+    {"correct": false, "text": "Bloqueo previo no asegura control rápido (Art. 90 RDPL-20001)."}
+  ]
+},
+{
+  "mission": "Asegurar central eléctrica",
+  "enemy": "Grupo insurgente con explosivos",
+  "terrain": "Zona industrial",
+  "troops": "1 compañía, ingenieros",
+  "time": "12 horas",
+  "civilians": "Personal técnico presente",
+  "coa": [
+    "Patrullas constantes",
+    "Establecer perímetro defensivo",
+    "Evacuación preventiva"
+  ],
+  "feedback": [
+    {"correct": false, "text": "Patrullas sin control fijo no garantizan seguridad (Art. 95 RDPL-20001)."},
+    {"correct": true, "text": "Perímetro defensivo asegura protección y control (Art. 138 RDPL-20001)."},
+    {"correct": false, "text": "Evacuación preventiva no cumple la misión (Art. 90 RDPL-20001)."}
+  ]
+},
+{
+  "mission": "Neutralizar centro de mando enemigo",
+  "enemy": "Unidad blindada ligera",
+  "terrain": "Zona urbana",
+  "troops": "2 compañías, apoyo aéreo limitado",
+  "time": "10 horas",
+  "civilians": "Alta densidad poblacional",
+  "coa": [
+    "Ataque aéreo inmediato",
+    "Infiltración nocturna",
+    "Bloqueo de suministros"
+  ],
+  "feedback": [
+    {"correct": false, "text": "Ataque aéreo en zona urbana genera daños colaterales (Art. 93 RDPL-20001)."},
+    {"correct": true, "text": "Infiltración nocturna reduce riesgos y asegura sorpresa (Art. 137 RDPL-20001)."},
+    {"correct": false, "text": "Bloqueo no neutraliza el objetivo en tiempo crítico (Art. 90 RDPL-20001)."}
+  ]
+},
+{
+  "mission": "Proteger convoy humanitario",
+  "enemy": "Bandas armadas saqueando",
+  "terrain": "Carretera rural",
+  "troops": "2 pelotones, vehículos ligeros",
+  "time": "8 horas",
+  "civilians": "Alta concentración en refugios",
+  "coa": [
+    "Avance rápido sin seguridad",
+    "Establecer corredores seguros",
+    "Esperar refuerzos blindados"
+  ],
+  "feedback": [
+    {"correct": false, "text": "Avance sin seguridad expone civiles (Art. 93 RDPL-20001)."},
+    {"correct": true, "text": "Corredores seguros garantizan protección y orden (Art. 138 RDPL-20001)."},
+    {"correct": false, "text": "Esperar refuerzos compromete tiempo crítico (Art. 90 RDPL-20001)."}
+  ]
+},
+{
+  "mission": "Defender aeropuerto ante ataque sorpresa",
+  "enemy": "Comandos infiltrados",
+  "terrain": "Zona abierta con hangares",
+  "troops": "1 compañía, defensa antiaérea",
+  "time": "4 horas",
+  "civilians": "Personal técnico presente",
+  "coa": [
+    "Refuerzo inmediato del perímetro",
+    "Contraataque hacia zona de infiltración",
+    "Evacuación de personal"
+  ],
+  "feedback": [
+    {"correct": true, "text": "Refuerzo del perímetro asegura protección y control (Art. 138 RDPL-20001)."},
+    {"correct": false, "text": "Contraataque sin consolidar defensa aumenta riesgo (Art. 93 RDPL-20001)."},
+    {"correct": false, "text": "Evacuación compromete misión y control del objetivo (Art. 90 RDPL-20001)."}
+  ]
+},
+{
+  "mission": "Asegurar frontera ante incursión enemiga",
+  "enemy": "Fuerzas blindadas ligeras",
+  "terrain": "Desierto abierto",
+  "troops": "1 batallón, artillería ligera",
+  "time": "48 horas",
+  "civilians": "Sin presencia",
+  "coa": [
+    "Línea defensiva fija",
+    "Defensa móvil con contraataques",
+    "Retirada hacia posiciones fortificadas"
+  ],
+  "feedback": [
+    {"correct": false, "text": "Defensa fija en desierto limita flexibilidad (Art. 93 RDPL-20001)."},
+    {"correct": true, "text": "Defensa móvil aprovecha maniobra y reduce vulnerabilidad (Art. 162 RDPL-20001)."},
+    {"correct": false, "text": "Retirada compromete control territorial (Art. 119 RDPL-20001)."}
+  ]
+}
+{
+  "mission": "Asegurar planta de tratamiento de agua",
+  "enemy": "Grupo insurgente con explosivos",
+  "terrain": "Zona industrial",
+  "troops": "1 compañía, ingenieros",
+  "time": "10 horas",
+  "civilians": "Personal técnico presente",
+  "coa": [
+    "Evacuación inmediata",
+    "Fortificación del perímetro",
+    "Negociación con insurgentes"
+  ],
+  "feedback": [
+    {"correct": false, "text": "Evacuación inmediata no garantiza protección del objetivo (Art. 90 RDPL-20001)."},
+    {"correct": true, "text": "Fortificación del perímetro asegura control y reduce riesgos (Art. 138 RDPL-20001)."},
+    {"correct": false, "text": "Negociación no asegura cumplimiento de misión (Art. 90 RDPL-20001)."}
+  ]
+},
+{
+  "mission": "Neutralizar base enemiga en zona montañosa",
+  "enemy": "Fuerzas ligeras con morteros",
+  "terrain": "Montaña, clima frío",
+  "troops": "2 compañías, ingenieros",
+  "time": "16 horas",
+  "civilians": "Sin presencia",
+  "coa": [
+    "Ataque frontal",
+    "Maniobra envolvente",
+    "Esperar apoyo aéreo"
+  ],
+  "feedback": [
+    {"correct": false, "text": "Ataque frontal en montaña aumenta bajas (Art. 93 RDPL-20001)."},
+    {"correct": true, "text": "Maniobra envolvente aprovecha terreno y reduce riesgos (Art. 162 RDPL-20001)."},
+    {"correct": false, "text": "Esperar apoyo aéreo compromete tiempo crítico (Art. 90 RDPL-20001)."}
+  ]
+},
+{
+  "mission": "Proteger estación eléctrica ante sabotaje",
+  "enemy": "Grupo armado con explosivos",
+  "terrain": "Zona urbana",
+  "troops": "1 compañía, ingenieros",
+  "time": "12 horas",
+  "civilians": "Personal técnico presente",
+  "coa": [
+    "Patrullas constantes",
+    "Establecer perímetro defensivo",
+    "Evacuación preventiva"
+  ],
+  "feedback": [
+    {"correct": false, "text": "Patrullas sin control fijo no garantizan seguridad (Art. 95 RDPL-20001)."},
+    {"correct": true, "text": "Perímetro defensivo asegura protección y control (Art. 138 RDPL-20001)."},
+    {"correct": false, "text": "Evacuación preventiva no cumple la misión (Art. 90 RDPL-20001)."}
+  ]
+},
+{
+  "mission": "Recuperar zona industrial ocupada",
+  "enemy": "Fuerzas irregulares",
+  "terrain": "Zona urbana con fábricas",
+  "troops": "2 compañías, ingenieros",
+  "time": "14 horas",
+  "civilians": "Trabajadores retenidos",
+  "coa": [
+    "Ataque frontal",
+    "Operación nocturna",
+    "Bloqueo de suministros"
+  ],
+  "feedback": [
+    {"correct": false, "text": "Ataque frontal en zona urbana aumenta bajas (Art. 93 RDPL-20001)."},
+    {"correct": true, "text": "Operación nocturna aprovecha sorpresa y reduce riesgos (Art. 137 RDPL-20001)."},
+    {"correct": false, "text": "Bloqueo no asegura control rápido del objetivo (Art. 90 RDPL-20001)."}
+  ]
+},
+{
+  "mission": "Defender puente estratégico ante ofensiva enemiga",
+  "enemy": "Batallón mecanizado",
+  "terrain": "Río con un solo cruce",
+  "troops": "1 compañía infantería, 2 secciones antitanque",
+  "time": "10 horas",
+  "civilians": "Presencia moderada en poblado cercano",
+  "coa": [
+    "Fortificar posiciones y esperar",
+    "Contraataque preventivo",
+    "Retirada táctica hacia colinas"
+  ],
+  "feedback": [
+    {"correct": true, "text": "Fortificar posiciones aprovecha el terreno y reduce vulnerabilidad (Art. 140 RDPL-20001)."},
+    {"correct": false, "text": "Contraataque sin superioridad de medios aumenta riesgo (Art. 93 RDPL-20001)."},
+    {"correct": false, "text": "Retirada compromete la misión y el estado final deseado (Art. 119 RDPL-20001)."}
+  ]
+},
+{
+  "mission": "Neutralizar centro de comunicaciones enemigo",
+  "enemy": "Unidad electrónica avanzada",
+  "terrain": "Zona urbana con edificios altos",
+  "troops": "2 compañías, apoyo artillería",
+  "time": "8 horas",
+  "civilians": "Alta densidad poblacional",
+  "coa": [
+    "Ataque aéreo inmediato",
+    "Operación nocturna con infiltración",
+    "Bloqueo de suministros"
+  ],
+  "feedback": [
+    {"correct": false, "text": "Ataque aéreo en zona urbana genera daños colaterales (Art. 93 RDPL-20001)."},
+    {"correct": true, "text": "Infiltración nocturna reduce riesgos y asegura sorpresa (Art. 137 RDPL-20001)."},
+    {"correct": false, "text": "Bloqueo no neutraliza el objetivo en tiempo crítico (Art. 90 RDPL-20001)."}
+  ]
+},
+{
+  "mission": "Proteger convoy logístico",
+  "enemy": "Francotiradores y IED",
+  "terrain": "Carretera montañosa",
+  "troops": "2 pelotones, ingenieros",
+  "time": "6 horas",
+  "civilians": "Tráfico moderado",
+  "coa": [
+    "Avance rápido sin reconocimiento",
+    "Reconocimiento + neutralización de IED",
+    "Esperar refuerzos blindados"
+  ],
+  "feedback": [
+    {"correct": false, "text": "Avance sin reconocimiento aumenta riesgo (Art. 93 RDPL-20001)."},
+    {"correct": true, "text": "Reconocimiento y neutralización reduce vulnerabilidad (Art. 137 RDPL-20001)."},
+    {"correct": false, "text": "Esperar refuerzos compromete tiempo crítico (Art. 90 RDPL-20001)."}
+  ]
+},
+{
+  "mission": "Evacuar población tras desastre natural",
+  "enemy": "Bandas armadas saqueando",
+  "terrain": "Ciudad parcialmente destruida",
+  "troops": "1 compañía, vehículos ligeros",
+  "time": "12 horas",
+  "civilians": "Alta concentración en refugios",
+  "coa": [
+    "Evacuación inmediata sin seguridad",
+    "Establecer corredores seguros",
+    "Negociar con bandas armadas"
+  ],
+  "feedback": [
+    {"correct": false, "text": "Evacuación sin seguridad expone civiles (Art. 93 RDPL-20001)."},
+    {"correct": true, "text": "Corredores seguros garantizan protección y orden (Art. 138 RDPL-20001)."},
+    {"correct": false, "text": "Negociación no asegura cumplimiento de misión (Art. 90 RDPL-20001)."}
+  ]
+},
+{
+  "mission": "Asegurar frontera fluvial",
+  "enemy": "Fuerzas anfibias",
+  "terrain": "Río ancho, clima lluvioso",
+  "troops": "1 batallón, artillería ligera",
+  "time": "36 horas",
+  "civilians": "Sin presencia",
+  "coa": [
+    "Defensa en la orilla",
+    "Ataque preventivo",
+    "Retirada táctica"
+  ],
+  "feedback": [
+    {"correct": true, "text": "Defensa en la orilla aprovecha terreno y reduce riesgos (Art. 138 RDPL-20001)."},
+    {"correct": false, "text": "Ataque preventivo sin superioridad aumenta riesgo (Art. 93 RDPL-20001)."},
+    {"correct": false, "text": "Retirada compromete control territorial (Art. 119 RDPL-20001)."}
+  ]
+},
+{
+  "mission": "Neutralizar centro de mando enemigo",
+  "enemy": "Unidad blindada ligera",
+  "terrain": "Zona urbana",
+  "troops": "2 compañías, apoyo aéreo limitado",
+  "time": "10 horas",
+  "civilians": "Alta densidad poblacional",
+  "coa": [
+    "Ataque aéreo inmediato",
+    "Infiltración nocturna",
+    "Bloqueo de suministros"
+  ],
+  "feedback": [
+    {"correct": false, "text": "Ataque aéreo en zona urbana genera daños colaterales (Art. 93 RDPL-20001)."},
+    {"correct": true, "text": "Infiltración nocturna reduce riesgos y asegura sorpresa (Art. 137 RDPL-20001)."},
+    {"correct": false, "text": "Bloqueo no neutraliza el objetivo en tiempo crítico (Art. 90 RDPL-20001)."}
+  ]
+}
+{
+  "mission": "Proteger refinería ante amenaza insurgente",
+  "enemy": "Grupo armado con explosivos",
+  "terrain": "Zona industrial",
+  "troops": "1 compañía, ingenieros",
+  "time": "10 horas",
+  "civilians": "Personal técnico presente",
+  "coa": [
+    "Evacuación inmediata",
+    "Fortificación del perímetro",
+    "Negociación con insurgentes"
+  ],
+  "feedback": [
+    {"correct": false, "text": "Evacuación inmediata no garantiza protección del objetivo (Art. 90 RDPL-20001)."},
+    {"correct": true, "text": "Fortificación del perímetro asegura control y reduce riesgos (Art. 138 RDPL-20001)."},
+    {"correct": false, "text": "Negociación no asegura cumplimiento de misión (Art. 90 RDPL-20001)."}
+  ]
+},
+{
+  "mission": "Neutralizar campamento enemigo en selva",
+  "enemy": "Guerrilla irregular",
+  "terrain": "Selva densa, clima húmedo",
+  "troops": "2 pelotones, drones de reconocimiento",
+  "time": "8 horas",
+  "civilians": "Sin presencia",
+  "coa": [
+    "Avance rápido por ruta principal",
+    "Emboscada inversa en punto crítico",
+    "Esperar apoyo aéreo"
+  ],
+  "feedback": [
+    {"correct": false, "text": "Avance rápido sin reconocimiento aumenta riesgo de emboscada (Art. 93 RDPL-20001)."},
+    {"correct": true, "text": "Emboscada inversa aprovecha sorpresa y reduce bajas (Art. 162 RDPL-20001)."},
+    {"correct": false, "text": "Esperar apoyo aéreo compromete tiempo crítico (Art. 90 RDPL-20001)."}
+  ]
+},
+{
+  "mission": "Defender estación de radar ante ataque sorpresa",
+  "enemy": "Comandos infiltrados",
+  "terrain": "Zona abierta",
+  "troops": "1 compañía, defensa antiaérea",
+  "time": "5 horas",
+  "civilians": "Personal técnico presente",
+  "coa": [
+    "Refuerzo inmediato del perímetro",
+    "Contraataque hacia zona de infiltración",
+    "Evacuación de personal"
+  ],
+  "feedback": [
+    {"correct": true, "text": "Refuerzo del perímetro asegura protección y control (Art. 138 RDPL-20001)."},
+    {"correct": false, "text": "Contraataque sin consolidar defensa aumenta riesgo (Art. 93 RDPL-20001)."},
+    {"correct": false, "text": "Evacuación compromete misión y control del objetivo (Art. 90 RDPL-20001)."}
+  ]
+},
+{
+  "mission": "Asegurar paso fronterizo estratégico",
+  "enemy": "Fuerzas blindadas ligeras",
+  "terrain": "Desierto abierto",
+  "troops": "1 batallón, artillería ligera",
+  "time": "48 horas",
+  "civilians": "Sin presencia",
+  "coa": [
+    "Línea defensiva fija",
+    "Defensa móvil con contraataques",
+    "Retirada hacia posiciones fortificadas"
+  ],
+  "feedback": [
+    {"correct": false, "text": "Defensa fija en desierto limita flexibilidad (Art. 93 RDPL-20001)."},
+    {"correct": true, "text": "Defensa móvil aprovecha maniobra y reduce vulnerabilidad (Art. 162 RDPL-20001)."},
+    {"correct": false, "text": "Retirada compromete control territorial (Art. 119 RDPL-20001)."}
+  ]
+},
+{
+  "mission": "Neutralizar centro de mando enemigo",
+  "enemy": "Unidad blindada ligera",
+  "terrain": "Zona urbana",
+  "troops": "2 compañías, apoyo aéreo limitado",
+  "time": "10 horas",
+  "civilians": "Alta densidad poblacional",
+  "coa": [
+    "Ataque aéreo inmediato",
+    "Infiltración nocturna",
+    "Bloqueo de suministros"
+  ],
+  "feedback": [
+    {"correct": false, "text": "Ataque aéreo en zona urbana genera daños colaterales (Art. 93 RDPL-20001)."},
+    {"correct": true, "text": "Infiltración nocturna reduce riesgos y asegura sorpresa (Art. 137 RDPL-20001)."},
+    {"correct": false, "text": "Bloqueo no neutraliza el objetivo en tiempo crítico (Art. 90 RDPL-20001)."}
+  ]
+},
+{
+  "mission": "Proteger convoy humanitario",
+  "enemy": "Bandas armadas saqueando",
+  "terrain": "Carretera rural",
+  "troops": "2 pelotones, vehículos ligeros",
+  "time": "8 horas",
+  "civilians": "Alta concentración en refugios",
+  "coa": [
+    "Avance rápido sin seguridad",
+    "Establecer corredores seguros",
+    "Esperar refuerzos blindados"
+  ],
+  "feedback": [
+    {"correct": false, "text": "Avance sin seguridad expone civiles (Art. 93 RDPL-20001)."},
+    {"correct": true, "text": "Corredores seguros garantizan protección y orden (Art. 138 RDPL-20001)."},
+    {"correct": false, "text": "Esperar refuerzos compromete tiempo crítico (Art. 90 RDPL-20001)."}
+  ]
+},
+{
+  "mission": "Defender aeropuerto ante ataque sorpresa",
+  "enemy": "Comandos infiltrados",
+  "terrain": "Zona abierta con hangares",
+  "troops": "1 compañía, defensa antiaérea",
+  "time": "4 horas",
+  "civilians": "Personal técnico presente",
+  "coa": [
+    "Refuerzo inmediato del perímetro",
+    "Contraataque hacia zona de infiltración",
+    "Evacuación de personal"
+  ],
+  "feedback": [
+    {"correct": true, "text": "Refuerzo del perímetro asegura protección y control (Art. 138 RDPL-20001)."},
+    {"correct": false, "text": "Contraataque sin consolidar defensa aumenta riesgo (Art. 93 RDPL-20001)."},
+    {"correct": false, "text": "Evacuación compromete misión y control del objetivo (Art. 90 RDPL-20001)."}
+  ]
+},
+{
+  "mission": "Asegurar frontera ante incursión enemiga",
+  "enemy": "Fuerzas blindadas ligeras",
+  "terrain": "Desierto abierto",
+  "troops": "1 batallón, artillería ligera",
+  "time": "48 horas",
+  "civilians": "Sin presencia",
+  "coa": [
+    "Línea defensiva fija",
+    "Defensa móvil con contraataques",
+    "Retirada hacia posiciones fortificadas"
+  ],
+  "feedback": [
+    {"correct": false, "text": "Defensa fija en desierto limita flexibilidad (Art. 93 RDPL-20001)."},
+    {"correct": true, "text": "Defensa móvil aprovecha maniobra y reduce vulnerabilidad (Art. 162 RDPL-20001)."},
+    {"correct": false, "text": "Retirada compromete control territorial (Art. 119 RDPL-20001)."}
+  ]
+},
+{
+  "mission": "Neutralizar centro de mando enemigo",
+  "enemy": "Unidad blindada ligera",
+  "terrain": "Zona urbana",
+  "troops": "2 compañías, apoyo aéreo limitado",
+  "time": "10 horas",
+  "civilians": "Alta densidad poblacional",
+  "coa": [
+    "Ataque aéreo inmediato",
+    "Infiltración nocturna",
+    "Bloqueo de suministros"
+  ],
+  "feedback": [
+    {"correct": false, "text": "Ataque aéreo en zona urbana genera daños colaterales (Art. 93 RDPL-20001)."},
+    {"correct": true, "text": "Infiltración nocturna reduce riesgos y asegura sorpresa (Art. 137 RDPL-20001)."},
+    {"correct": false, "text": "Bloqueo no neutraliza el objetivo en tiempo crítico (Art. 90 RDPL-20001)."}
+  ]
+},
+{
+  "mission": "Proteger convoy humanitario",
+  "enemy": "Bandas armadas saqueando",
+  "terrain": "Carretera rural",
+  "troops": "2 pelotones, vehículos ligeros",
+  "time": "8 horas",
+  "civilians": "Alta concentración en refugios",
+  "coa": [
+    "Avance rápido sin seguridad",
+    "Establecer corredores seguros",
+    "Esperar refuerzos blindados"
+  ],
+  "feedback": [
+    {"correct": false, "text": "Avance sin seguridad expone civiles (Art. 93 RDPL-20001)."},
+    {"correct": true, "text": "Corredores seguros garantizan protección y orden (Art. 138 RDPL-20001)."},
+    {"correct": false, "text": "Esperar refuerzos compromete tiempo crítico (Art. 90 RDPL-20001)."}
+  ]
+}
+]
