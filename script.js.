@@ -79,4 +79,5 @@ function endGame() {
         <p>Puntuación: ${score}</p>
         <button onclick="location.reload()">Reintentar</button>
     `;
+
 }
